@@ -2,8 +2,6 @@ package policies;
 
 import rateLimitingStrategy.RateLimitingStrategy;
 
-import java.time.Duration;
-
 public class RateLimitPolicy {
     private int limit;
     private long windowSizeMillis;
